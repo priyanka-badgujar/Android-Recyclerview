@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Trending repositories</string>
+    <string name="sort_by_stars">Sort by stars</string>
+    <string name="sort_by_name">Sort by name</string>
+    <string name="error_msg_1">Something went wrong..</string>
+    <string name="error_msg_2">An alien is probably blocking your signal.</string>
+    <string name="retry_button">RETRY</string>
+</resources>

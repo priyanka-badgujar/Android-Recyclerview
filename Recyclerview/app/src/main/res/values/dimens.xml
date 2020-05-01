@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="title_text_size">21dp</dimen>
+    <dimen name="twelve_dp">12dp</dimen>
+    <dimen name="fifteen_dp">15dp</dimen>
+    <dimen name="six_dp">6dp</dimen>
+    <dimen name="sixteen_dp">16dp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="thirty_two_dp">32dp</dimen>
+    <dimen name="four_dp">4dp</dimen>
+    <dimen name="fifty_six_dp">56dp</dimen>
+    <dimen name="fourteen_dp">14dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+</resources>

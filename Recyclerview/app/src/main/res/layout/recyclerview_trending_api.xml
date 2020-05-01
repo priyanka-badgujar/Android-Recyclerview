@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/api_info_container"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_row">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/sixteen_dp">
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="@dimen/thirty_two_dp"
+                android:layout_height="@dimen/thirty_two_dp"
+                android:layout_marginTop="@dimen/twenty_dp"
+                android:layout_marginLeft="@dimen/sixteen_dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/sixteen_dp"
+                android:layout_marginRight="@dimen/sixteen_dp">
+
+                <TextView
+                    android:id="@+id/author"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/sixteen_dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_color"
+                    android:fontFamily="sans-serif"/>
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/six_dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/text_color"
+                    android:fontFamily="sans-serif-medium"/>
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:paddingTop="@dimen/eight_dp"
+                    android:textColor="@color/text_color"
+                    android:fontFamily="sans-serif" />
+
+                <LinearLayout
+                    android:id="@+id/view_extra_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/eight_dp">
+
+                    <TextView
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:id="@+id/language_color"
+                        android:layout_gravity="center_vertical"/>
+
+                    <TextView
+                        android:id="@+id/language"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:paddingLeft="@dimen/four_dp"
+                        android:paddingRight="@dimen/sixteen_dp"
+                        android:textColor="@color/text_color"
+                        android:fontFamily="sans-serif"/>
+
+                    <TextView
+                        android:id="@+id/stars"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:drawableLeft="@mipmap/star_yellow_16"
+                        android:paddingRight="@dimen/sixteen_dp"
+                        android:drawablePadding="@dimen/four_dp"
+                        android:textSize="12sp"
+                        android:fontFamily="sans-serif"/>
+
+                    <TextView
+                        android:id="@+id/forks"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:drawablePadding="@dimen/four_dp"
+                        android:drawableLeft="@mipmap/fork_black_16"
+                        android:textSize="12sp"
+                        android:fontFamily="sans-serif"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

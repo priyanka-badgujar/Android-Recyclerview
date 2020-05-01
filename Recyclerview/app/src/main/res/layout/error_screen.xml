@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/error_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/nointernet_connection"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:id="@+id/error_msg_1"
+            android:layout_below="@id/error_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4A4A4A"
+            android:layout_marginTop="24dp"
+            android:text="@string/error_msg_1"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/error_msg_2"
+            android:layout_below="@id/error_msg_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#929292"
+            android:layout_marginTop="@dimen/eight_dp"
+            android:text="@string/error_msg_2"
+            android:fontFamily="sans-serif"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/retry_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:maxWidth="328dp"
+            android:layout_marginBottom="@dimen/sixteen_dp"
+            android:layout_marginRight="@dimen/sixteen_dp"
+            android:layout_marginLeft="@dimen/sixteen_dp"
+            android:layout_alignParentBottom="true"
+            android:text="@string/retry_button"
+            android:textColor="#31B057"
+            android:fontFamily="sans-serif-medium"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_background" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
